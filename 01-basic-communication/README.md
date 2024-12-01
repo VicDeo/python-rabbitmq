@@ -8,4 +8,4 @@
 * Queue is not deleted on shutdown so if the producer send message before consumer is started - the message will be waiting in the queue until it is consumed
 
 `producer.py` produces an emergency message
-`consumer.py` consumes this message, multiple instances can be started simultenously
+`consumer.py` consumes this message, multiple instances can be started simultaneously

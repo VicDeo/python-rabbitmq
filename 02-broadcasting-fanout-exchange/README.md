@@ -8,7 +8,7 @@
 * If queue is started as exclusive to a channel it can be used by this channel only, will get an unique name from RabbitMQ and will be destroyed with the respective channel on shutdown
 
 `producer.py` produces 10 emergency messages
-`consumer.py` consumes these messages, multiple instances can be started simultenously
+`consumer.py` consumes these messages, multiple instances can be started simultaneously
 
 
 
